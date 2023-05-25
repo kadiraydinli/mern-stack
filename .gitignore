@@ -23,5 +23,6 @@
 /client/yarn-error.log*
 
 .DS_Store
+.env
 
 /server/node_modules
