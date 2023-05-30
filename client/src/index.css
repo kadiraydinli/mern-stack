@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.input-style {
+		@apply border p-2 rounded-md outline-none focus:border-indigo-600;
+	}
+
+	.primary-button {
+		@apply cursor-pointer w-full p-2 text-center bg-indigo-600 text-white rounded-md hover:bg-indigo-800;
+	}
+}
